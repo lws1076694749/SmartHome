@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.deltaww.smarthome.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/variate1"
+            android:textSize="@dimen/main_textview_textsize" />
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate1_room1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room1"
+                android:textSize="@dimen/checkbox_text_size" />
+
+
+            <CheckBox
+                android:id="@+id/variate1_room2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room2"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate1_room3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room3"
+                android:textSize="@dimen/checkbox_text_size" />
+
+            <CheckBox
+                android:id="@+id/variate1_room4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room4"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/variate2"
+            android:textSize="@dimen/main_textview_textsize" />
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate2_room1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room1"
+                android:textSize="@dimen/checkbox_text_size" />
+
+
+            <CheckBox
+                android:id="@+id/variate2_room2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room2"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate2_room3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room3"
+                android:textSize="@dimen/checkbox_text_size" />
+
+            <CheckBox
+                android:id="@+id/variate2_room4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room4"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/variate3"
+            android:textSize="@dimen/main_textview_textsize" />
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate3_room1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room1"
+                android:textSize="@dimen/checkbox_text_size" />
+
+
+            <CheckBox
+                android:id="@+id/variate3_room2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room2"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate3_room3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room3"
+                android:textSize="@dimen/checkbox_text_size" />
+
+            <CheckBox
+                android:id="@+id/variate3_room4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room4"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/variate4"
+            android:textSize="@dimen/main_textview_textsize" />
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate4_room1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room1"
+                android:textSize="@dimen/checkbox_text_size" />
+
+
+            <CheckBox
+                android:id="@+id/variate4_room2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room2"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate4_room3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room3"
+                android:textSize="@dimen/checkbox_text_size" />
+
+            <CheckBox
+                android:id="@+id/variate4_room4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room4"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/variate5"
+            android:textSize="@dimen/main_textview_textsize" />
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate5_room1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room1"
+                android:textSize="@dimen/checkbox_text_size" />
+
+
+            <CheckBox
+                android:id="@+id/variate5_room2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room2"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate5_room3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room3"
+                android:textSize="@dimen/checkbox_text_size" />
+
+            <CheckBox
+                android:id="@+id/variate5_room4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room4"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/variate6"
+            android:textSize="@dimen/main_textview_textsize" />
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate6_room1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room1"
+                android:textSize="@dimen/checkbox_text_size" />
+
+
+            <CheckBox
+                android:id="@+id/variate6_room2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room2"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate6_room3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room3"
+                android:textSize="@dimen/checkbox_text_size" />
+
+            <CheckBox
+                android:id="@+id/variate6_room4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room4"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/variate7"
+            android:textSize="@dimen/main_textview_textsize" />
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate7_room1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room1"
+                android:textSize="@dimen/checkbox_text_size" />
+
+
+            <CheckBox
+                android:id="@+id/variate7_room2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room2"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate7_room3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room3"
+                android:textSize="@dimen/checkbox_text_size" />
+
+            <CheckBox
+                android:id="@+id/variate7_room4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room4"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/variate8"
+            android:textSize="@dimen/main_textview_textsize" />
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate8_room1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room1"
+                android:textSize="@dimen/checkbox_text_size" />
+
+
+            <CheckBox
+                android:id="@+id/variate8_room2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room2"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/variate8_room3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room3"
+                android:textSize="@dimen/checkbox_text_size" />
+
+            <CheckBox
+                android:id="@+id/variate8_room4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room4"
+                android:textSize="@dimen/checkbox_text_size" />
+        </TableRow>
+
+        <TableRow>
+            <Button android:id="@+id/select_all"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/select_all"/>
+            <Button android:id="@+id/delete_all"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/delete_all"/>
+        </TableRow>
+
+        <Button
+            android:id="@+id/button_ok"
+            android:text="@string/ok"
+            android:textSize="@dimen/main_textview_textsize"/>
+
+    </TableLayout>
+
+</ScrollView>

@@ -15,7 +15,7 @@ import java.net.UnknownHostException;
 /**
  * Created by lws on 2016/5/16.
  */
-public class DataReceiveThread implements Runnable {
+public class DataReceiveThread extends Thread {
     private static final String TAG = "DataReceiveThread";
 
     private Socket socket;

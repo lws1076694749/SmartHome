@@ -1,20 +1,9 @@
 <resources>
     <string name="app_name">SmartHome</string>
 
-    <string name="variate1">温度</string>
-    <string name="variate2">光强</string>
-    <string name="variate3">按键</string>
-    <string name="variate4">气体</string>
-    <string name="variate5">风扇</string>
-    <string name="variate6">LED</string>
-    <string name="variate7">LED</string>
-    <string name="variate8">蜂鸣器</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="room1">房间1</string>
-    <string name="room2">房间2</string>
-    <string name="room3">房间3</string>
-    <string name="room4">房间4</string>
-    <string name="ok">确定</string>
-    <string name="select_all">全选</string>
-    <string name="delete_all">清空</string>
+    <string name="action_settings">Settings</string>
 </resources>

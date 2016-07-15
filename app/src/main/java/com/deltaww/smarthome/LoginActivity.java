@@ -51,7 +51,7 @@ public class LoginActivity extends AppCompatActivity {
             mViewPassword.setText(sharedPreferences.getString("password", ""));
             if (sharedPreferences.getBoolean("AutoLoginChecked", false)) {
                 mAutoLogin.setChecked(true);
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                Intent intent = new Intent(LoginActivity.this, MessageActivity.class);
                 startActivity(intent);
             }
         }
@@ -83,7 +83,7 @@ public class LoginActivity extends AppCompatActivity {
                         editor.commit();
                     }
 
-                    Intent intent=new Intent(LoginActivity.this,MainActivity.class);
+                    Intent intent=new Intent(LoginActivity.this,MessageActivity.class);
                     LoginActivity.this.startActivity(intent);
                 }else {
                     Toast.makeText(LoginActivity.this,"用户名或密码错误，请重新登录！",Toast.LENGTH_LONG).show();
